@@ -1,0 +1,7 @@
+Tato složka by měla obsahovat ikony rozšíření:
+
+- icon16.png (16x16 pixelů)
+- icon48.png (48x48 pixelů)
+- icon128.png (128x128 pixelů)
+
+Prosím přidejte ikony ve správných rozměrech do této složky.
