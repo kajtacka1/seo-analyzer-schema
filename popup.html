@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Analýza Schema</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Záhlaví -->
+  <div class="header">
+    <h1>SEO Analýza Schema</h1>
+    <div id="seoScore" class="seo-score">0</div>
+  </div>
+  
+  <!-- Záložky -->
+  <div class="tabs">
+    <button class="tab-button active" data-tab="headings">Nadpisy</button>
+    <button class="tab-button" data-tab="meta">Meta info</button>
+    <button class="tab-button" data-tab="keywords">Klíčová slova</button>
+    <button class="tab-button" data-tab="schema">Strukturovaná data</button>
+  </div>
+  
+  <!-- Obsah záložek -->
+  <!-- Nadpisy -->
+  <div id="headings" class="tab-content active">
+    <div id="headings-loading" class="loading">
+      <div class="spinner"></div>
+      Načítání nadpisů...
+    </div>
+    <div id="headings-content" style="display: none;"></div>
+  </div>
+  
+  <!-- Meta info -->
+  <div id="meta" class="tab-content">
+    <div id="meta-loading" class="loading">
+      <div class="spinner"></div>
+      Načítání meta informací...
+    </div>
+    <div id="meta-content" style="display: none;"></div>
+  </div>
+  
+  <!-- Klíčová slova -->
+  <div id="keywords" class="tab-content">
+    <div id="keywords-loading" class="loading">
+      <div class="spinner"></div>
+      Načítání textu stránky...
+    </div>
+    <div id="keywords-content" style="display: none;"></div>
+  </div>
+  
+  <!-- Strukturovaná data -->
+  <div id="schema" class="tab-content">
+    <div id="schema-loading" class="loading">
+      <div class="spinner"></div>
+      Načítání strukturovaných dat...
+    </div>
+    <div id="schema-content" style="display: none;"></div>
+  </div>
+  
+  <!-- Snackbar pro zprávy -->
+  <div id="snackbar"></div>
+  
+  <!-- Skripty -->
+  <script src="popup.js"></script>
+</body>
+</html>
