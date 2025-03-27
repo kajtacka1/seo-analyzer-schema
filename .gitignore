@@ -1,0 +1,36 @@
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore package manager directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build and distribution files
+dist/
+*.zip
+*.crx
+*.pem
+
+# Ignore temporary and cache files
+.tmp/
+.cache/
+*.log
+*.bak
+*.swp
+*~
+
+# Ignore local configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
